@@ -8,11 +8,22 @@ Extension methods to make String to snake/camel case.
 
 ## Usage
 
+### In Kotlin
+
 ```kotlin
 "ABC".toSnakeCase() // => "a_b_c"
 "a_b_c".toCamelCase() // => "ABC"
 "abc".beginWithUpperCase() // => "Abc"
 "Abc".beginWithLowerCase() // => "abc"
+```
+
+### In Java
+
+```
+CaseChanger.toSnakeCase("ABC") // => "a_b_c"
+CaseChanger.toCamelCase("a_b_c") // => "ABC"
+CaseChanger.beginWithUpperCase("abc") // => "Abc"
+CaseChanger.beginWithLowerCase("Abc") // => "abc"
 ```
 
 ## Install
