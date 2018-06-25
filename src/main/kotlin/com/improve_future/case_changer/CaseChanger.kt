@@ -1,3 +1,5 @@
+@file:JvmName("CaseChanger")
+
 package com.improve_future.case_changer
 
 /**
