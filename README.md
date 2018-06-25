@@ -33,6 +33,6 @@ repositories {
   maven { url 'https://jitpack.io' }
 }
 dependencies {
-  compile 'com.github.KenjiOhtsuka:kotlin-case-changer:0.1.0'
+  compile 'com.github.KenjiOhtsuka:kotlin-case-changer:0.1.1'
 }
 ```
